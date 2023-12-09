@@ -10,10 +10,27 @@ import fileio.input.*;
 import java.util.*;
 
 public class Admin {
-    private static List<User> users = new ArrayList<>();
-    private static List<Song> songs = new ArrayList<>();
-    private static List<Podcast> podcasts = new ArrayList<>();
-    private static int timestamp = 0;
+
+    private static Admin instance;
+    private static List<User> users;
+    private static List<Song> songs;
+    private static List<Podcast> podcasts;
+    private static int timestamp;
+
+    private Admin() {
+        // private constructor to prevent external instantiation
+        users = new ArrayList<>();
+        songs = new ArrayList<>();
+        podcasts = new ArrayList<>();
+        timestamp = 0;
+    }
+
+    public static Admin getInstance() {
+        if (instance == null) {
+            instance = new Admin();
+        }
+        return instance;
+    }
 
     public static void setUsers(List<UserInput> userInputList) {
         users = new ArrayList<>();
@@ -113,4 +130,14 @@ public class Admin {
         podcasts = new ArrayList<>();
         timestamp = 0;
     }
+    public static ArrayList<String> getOnlineUsers(){
+        ArrayList<String> onlineUsers = new ArrayList<>();
+        for (User user : users) {
+            if (user.isStatus()){
+                onlineUsers.add(user.getUsername());
+            }
+        }
+        return onlineUsers;
+    }
+
 }

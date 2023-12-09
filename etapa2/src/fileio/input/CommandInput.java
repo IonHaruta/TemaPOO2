@@ -1,9 +1,17 @@
 package fileio.input;
 
+import app.audio.Files.Episode;
+
+import java.util.ArrayList;
+
 public final class CommandInput {
     private String command;
     private String username;
     private Integer timestamp;
+    private ArrayList<Episode> episodes;
+    private String name;
+    private Integer age;
+    private String city;
     private String type; // song / playlist / podcast
     private FiltersInput filters; // pentru search
     private Integer itemNumber; // pentru select
@@ -11,6 +19,38 @@ public final class CommandInput {
     private Integer playlistId; // pentru add/remove song
     private String playlistName; // pentru create playlist
     private Integer seed; // pentru shuffle
+
+    public ArrayList<Episode> getEpisodes() {
+        return episodes;
+    }
+
+    public void setEpisodes(ArrayList<Episode> episodes) {
+        this.episodes = episodes;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 
     public CommandInput() {
     }

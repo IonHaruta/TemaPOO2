@@ -12,6 +12,7 @@ import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +33,9 @@ public class User {
     private final Player player;
     private final SearchBar searchBar;
     private boolean lastSearched;
+    @Setter
+    @Getter
+    private boolean status = true;
 
     public User(String username, int age, String city) {
         this.username = username;
@@ -318,6 +322,17 @@ public class User {
     }
 
     public void simulateTime(int time) {
-        player.simulatePlayer(time);
+        if (status){
+            player.simulatePlayer(time);
+        }
+    }
+
+    public String switchConnectionStatus(){
+        if (status){
+            status = false;
+        } else {
+            status = true;
+        }
+        return " has changed status successfully.";
     }
 }

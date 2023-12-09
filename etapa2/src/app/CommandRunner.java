@@ -18,9 +18,15 @@ public class CommandRunner {
         User user = Admin.getUser(commandInput.getUsername());
         Filters filters = new Filters(commandInput.getFilters());
         String type = commandInput.getType();
-
-        ArrayList<String> results = user.search(filters, type);
-        String message = "Search returned " + results.size() + " results";
+        ArrayList<String> results;
+        String message;
+        if (user.isStatus()){
+            results = user.search(filters, type);
+            message = "Search returned " + results.size() + " results";
+        } else {
+            results = new ArrayList<>();
+            message = user.getUsername() + " is offline.";
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -289,4 +295,32 @@ public class CommandRunner {
 
         return objectNode;
     }
+    public static ObjectNode switchConnectionStatus(CommandInput commandInput) {
+        User user = Admin.getUser(commandInput.getUsername());
+        String message;
+        if (user != null) {
+            message = commandInput.getUsername() + user.switchConnectionStatus();
+        } else {
+            message = "The username " + commandInput.getUsername() + " doesn't exist.";
+        }
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("message", message);
+
+        return objectNode;
+    }
+    public static ObjectNode getOnlineUsers(CommandInput commandInput) {
+        List<String> onlineUsers = Admin.getOnlineUsers();
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("result", objectMapper.valueToTree(onlineUsers));
+
+        return objectNode;
+    }
+
 }
