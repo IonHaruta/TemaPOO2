@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e8c101f-f699-4992-a61c-e172d0994d39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/audio/Collections/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/audio/Collections/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/user/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/user/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileio/input/ArtistInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/TemaPOO2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/app/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa2/app/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/app/CommandRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa2/app/CommandRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/app/audio/Files/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa2/app/audio/Files/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/app/searchBar/SearchBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa2/app/searchBar/SearchBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/app/user/User$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa2/app/user/User$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/app/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa2/app/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/fileio/input/CommandInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa2/fileio/input/CommandInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/fileio/input/LibraryInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa2/fileio/input/LibraryInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/fileio/input/UserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa2/fileio/input/UserInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa2/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test00_etapa2.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test00_etapa2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test01_etapa2.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test01_etapa2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test02_etapa2.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test02_etapa2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test03_etapa2.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test03_etapa2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test04_etapa2.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test04_etapa2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test05_etapa2_playPause_playlist_podcast.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test05_etapa2_playPause_playlist_podcast.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test06_etapa2_repeat.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test06_etapa2_repeat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test07_etapa2_repeat_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test07_etapa2_repeat_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test08_etapa2_searchHost_printCurrentPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test08_etapa2_searchHost_printCurrentPage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test09_etapa2_shuffle_album.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test09_etapa2_shuffle_album.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test10_etapa2_next_prev_forward_backward.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test10_etapa2_next_prev_forward_backward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test11_etapa2_shuffle_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test11_etapa2_shuffle_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test12_etapa2_next_prev_forward_backward_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test12_etapa2_next_prev_forward_backward_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test13_statistics.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test13_statistics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test14_etapa2_delete_cases.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test14_etapa2_delete_cases.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test15_etapa2_complex.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test15_etapa2_complex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test16_etapa2_complex.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test16_etapa2_complex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CommandRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/CommandRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/audio/Files/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/audio/Files/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/searchBar/SearchBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/searchBar/SearchBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/input/CommandInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/input/CommandInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/input/LibraryInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/input/LibraryInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/input/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/input/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2Z1jfCmBQgmBD8P72tG0FYYSTWD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ionharuta/Desktop/TemaPOO2/etapa2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e8c101f-f699-4992-a61c-e172d0994d39" name="Changes" comment="" />
+      <created>1701596582527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701596582527</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
