@@ -2,229 +2,149 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Stairway to Heaven", "Start Me Up", "Stargazing" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 15,
-  "message" : "Successfully selected TED Radio Hour."
-}, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 20,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 49,
-  "stats" : {
-    "name" : "The Power of Design",
-    "remainedTime" : 3075,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "addUser",
-  "timestamp" : 50,
-  "user" : "soundseeker",
-  "message" : "The username soundseeker has been added successfully."
+  "message" : "Successfully selected Stairway to Heaven."
 }, {
   "command" : "search",
   "user" : "alice22",
-  "timestamp" : 55,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "timestamp" : 20,
+  "message" : "Search returned 3 results",
+  "results" : [ "Shape of You", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 57,
+  "timestamp" : 25,
   "message" : "The selected ID is too high."
 }, {
-  "command" : "printCurrentPage",
-  "timestamp" : 58,
+  "command" : "search",
   "user" : "alice22",
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "timestamp" : 30,
+  "message" : "Search returned 1 results",
+  "results" : [ "Big Pimpin'" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 40,
+  "message" : "Search returned 2 results",
+  "results" : [ "Begin Again", "Butterfly Effect" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 50,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Maps", "The Man", "Freedom" ]
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 60,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
 }, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 65,
-  "message" : "Successfully selected TED Radio Hour."
-}, {
-  "command" : "load",
+  "command" : "search",
   "user" : "alice22",
   "timestamp" : 70,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 73,
-  "stats" : {
-    "name" : "The Power of Design",
-    "remainedTime" : 3066,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Whatever You Need", "The Man", "Delicate", "Sicko Mode" ]
 }, {
   "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 75,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "command" : "select",
   "user" : "alice22",
   "timestamp" : 80,
-  "message" : "The selected ID is too high."
-}, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 85,
-  "message" : "Please select a source before attempting to load."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 86,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "playPause",
-  "user" : "alice22",
-  "timestamp" : 3200,
-  "message" : "Please load a source before attempting to pause or resume playback."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 3201,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "createPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3210,
-  "message" : "Playlist created successfully."
+  "message" : "Search returned 5 results",
+  "results" : [ "Money Trees", "DNA.", "Kings Dead", "Legendary", "Swimming Pools (Drank)" ]
 }, {
   "command" : "search",
   "user" : "alice22",
-  "timestamp" : 3215,
+  "timestamp" : 90,
+  "message" : "Search returned 4 results",
+  "results" : [ "Stairway to Heaven", "Black Dog", "Whole Lotta Love", "Good Times Bad Times" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 100,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Joe Rogan Experience", "The Daily", "The Michelle Obama Podcast", "The Daily Show With Trevor Noah", "The Happiness Lab" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 110,
   "message" : "Search returned 2 results",
-  "results" : [ "Freedom", "Freedom" ]
+  "results" : [ "How I Built This", "TED Radio Hour" ]
 }, {
-  "command" : "select",
+  "command" : "switchConnectionStatus",
   "user" : "alice22",
-  "timestamp" : 3220,
-  "message" : "Successfully selected Freedom."
+  "timestamp" : 130,
+  "message" : "alice22 has changed status successfully."
 }, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 3225,
-  "message" : "Playback loaded successfully."
+  "command" : "switchConnectionStatus",
+  "user" : "bob35",
+  "timestamp" : 140,
+  "message" : "bob35 has changed status successfully."
 }, {
-  "command" : "addRemoveInPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3230,
-  "message" : "Successfully added to playlist."
+  "command" : "switchConnectionStatus",
+  "user" : "mari21",
+  "timestamp" : 150,
+  "message" : "The username mari21 doesn't exist."
+}, {
+  "command" : "getOnlineUsers",
+  "timestamp" : 170,
+  "result" : [ "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
 }, {
   "command" : "search",
   "user" : "alice22",
-  "timestamp" : 3235,
-  "message" : "Search returned 1 results",
-  "results" : [ "Happier" ]
+  "timestamp" : 180,
+  "message" : "alice22 is offline.",
+  "results" : [ ]
 }, {
-  "command" : "select",
+  "command" : "switchConnectionStatus",
   "user" : "alice22",
-  "timestamp" : 3240,
-  "message" : "Successfully selected Happier."
-}, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 3245,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "addUser",
-  "timestamp" : 3247,
-  "user" : "magichost",
-  "message" : "The username magichost has been added successfully."
-}, {
-  "command" : "addUser",
-  "timestamp" : 3247,
-  "user" : "magichost",
-  "message" : "The username magichost is already taken."
-}, {
-  "command" : "addRemoveInPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3250,
-  "message" : "Successfully added to playlist."
+  "timestamp" : 210,
+  "message" : "alice22 has changed status successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
-  "timestamp" : 3255,
+  "timestamp" : 240,
   "message" : "Search returned 1 results",
-  "results" : [ "2010 hits" ]
+  "results" : [ "Big Pimpin'" ]
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 3260,
-  "message" : "Successfully selected 2010 hits."
+  "timestamp" : 250,
+  "message" : "Successfully selected Big Pimpin'."
 }, {
   "command" : "load",
   "user" : "alice22",
-  "timestamp" : 3265,
+  "timestamp" : 280,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
-  "timestamp" : 3270,
+  "timestamp" : 420,
   "stats" : {
-    "name" : "Freedom",
-    "remainedTime" : 173,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 144,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
 }, {
-  "command" : "printCurrentPage",
-  "timestamp" : 3275,
+  "command" : "switchConnectionStatus",
   "user" : "alice22",
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[2010 hits]"
+  "timestamp" : 430,
+  "message" : "alice22 has changed status successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
-  "timestamp" : 3448,
+  "timestamp" : 700,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 202,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 134,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 4000,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
   }
 } ]

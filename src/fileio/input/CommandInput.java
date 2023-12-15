@@ -26,6 +26,15 @@ public final class CommandInput {
     private ArrayList<SongInput> songs; // pentru addAlbum
     private String date; // pentru addEvent
     private Integer price;
+    private String nextPage;
+
+    public String getNextPage() {
+        return nextPage;
+    }
+
+    public void setNextPage(String nextPage) {
+        this.nextPage = nextPage;
+    }
 
     public Integer getPrice() {
         return price;

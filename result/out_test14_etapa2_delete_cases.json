@@ -1,230 +1,223 @@
 [ {
-  "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 10,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
-}, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 15,
-  "message" : "Successfully selected TED Radio Hour."
-}, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 20,
-  "message" : "Playback loaded successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 49,
-  "stats" : {
-    "name" : "The Power of Design",
-    "remainedTime" : 3075,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
+  "command" : "addUser",
+  "timestamp" : 45,
+  "user" : "sonicpainter",
+  "message" : "The username sonicpainter has been added successfully."
 }, {
   "command" : "addUser",
   "timestamp" : 50,
-  "user" : "soundseeker",
-  "message" : "The username soundseeker has been added successfully."
+  "user" : "echoexplorer",
+  "message" : "The username echoexplorer has been added successfully."
 }, {
-  "command" : "search",
-  "user" : "alice22",
+  "command" : "addUser",
   "timestamp" : 55,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "user" : "rhythmweaver",
+  "message" : "The username rhythmweaver has been added successfully."
 }, {
-  "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 57,
-  "message" : "The selected ID is too high."
-}, {
-  "command" : "printCurrentPage",
-  "timestamp" : 58,
-  "user" : "alice22",
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
-}, {
-  "command" : "search",
-  "user" : "alice22",
+  "command" : "addUser",
   "timestamp" : 60,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
+  "user" : "soundseeker21",
+  "message" : "The username soundseeker21 has been added successfully."
 }, {
-  "command" : "select",
-  "user" : "alice22",
+  "command" : "addUser",
   "timestamp" : 65,
-  "message" : "Successfully selected TED Radio Hour."
+  "user" : "melodicwanderer",
+  "message" : "The username melodicwanderer has been added successfully."
 }, {
-  "command" : "load",
-  "user" : "alice22",
+  "command" : "addUser",
   "timestamp" : 70,
-  "message" : "Playback loaded successfully."
+  "user" : "audiosage",
+  "message" : "The username audiosage has been added successfully."
 }, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 73,
-  "stats" : {
-    "name" : "The Power of Design",
-    "remainedTime" : 3066,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "search",
-  "user" : "alice22",
+  "command" : "addUser",
   "timestamp" : 75,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "user" : "soundcurator",
+  "message" : "The username soundcurator has been added successfully."
 }, {
-  "command" : "select",
-  "user" : "alice22",
+  "command" : "addUser",
   "timestamp" : 80,
-  "message" : "The selected ID is too high."
+  "user" : "musicmaven",
+  "message" : "The username musicmaven has been added successfully."
 }, {
-  "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 85,
-  "message" : "Please select a source before attempting to load."
+  "command" : "addPodcast",
+  "user" : "audiosage",
+  "timestamp" : 280,
+  "message" : "audiosage has added new podcast successfully."
 }, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 86,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "command" : "addPodcast",
+  "user" : "audiosage",
+  "timestamp" : 285,
+  "message" : "audiosage has added new podcast successfully."
 }, {
-  "command" : "playPause",
-  "user" : "alice22",
-  "timestamp" : 3200,
-  "message" : "Please load a source before attempting to pause or resume playback."
+  "command" : "addPodcast",
+  "user" : "musicmaven",
+  "timestamp" : 290,
+  "message" : "musicmaven has added new podcast successfully."
 }, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 3201,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "command" : "addPodcast",
+  "user" : "musicmaven",
+  "timestamp" : 295,
+  "message" : "musicmaven has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "musicmaven",
+  "timestamp" : 300,
+  "message" : "musicmaven has added new podcast successfully."
 }, {
   "command" : "createPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3210,
+  "user" : "melodicwanderer",
+  "timestamp" : 305,
   "message" : "Playlist created successfully."
 }, {
+  "command" : "addAlbum",
+  "user" : "sonicpainter",
+  "timestamp" : 310,
+  "message" : "sonicpainter has added new album successfully."
+}, {
   "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 3215,
+  "user" : "melodicwanderer",
+  "timestamp" : 315,
   "message" : "Search returned 2 results",
-  "results" : [ "Freedom", "Freedom" ]
+  "results" : [ "Aurora Harmony", "Azure Echoes" ]
 }, {
   "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 3220,
-  "message" : "Successfully selected Freedom."
+  "user" : "melodicwanderer",
+  "timestamp" : 320,
+  "message" : "Successfully selected Azure Echoes."
 }, {
   "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 3225,
+  "user" : "melodicwanderer",
+  "timestamp" : 325,
   "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3230,
+  "user" : "melodicwanderer",
+  "timestamp" : 330,
   "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
-  "timestamp" : 3235,
+  "timestamp" : 335,
   "message" : "Search returned 1 results",
-  "results" : [ "Happier" ]
+  "results" : [ "Rhythmic Dialogues" ]
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 3240,
-  "message" : "Successfully selected Happier."
+  "timestamp" : 340,
+  "message" : "Successfully selected Rhythmic Dialogues."
 }, {
   "command" : "load",
   "user" : "alice22",
-  "timestamp" : 3245,
+  "timestamp" : 345,
   "message" : "Playback loaded successfully."
-}, {
-  "command" : "addUser",
-  "timestamp" : 3247,
-  "user" : "magichost",
-  "message" : "The username magichost has been added successfully."
-}, {
-  "command" : "addUser",
-  "timestamp" : 3247,
-  "user" : "magichost",
-  "message" : "The username magichost is already taken."
-}, {
-  "command" : "addRemoveInPlaylist",
-  "user" : "alice22",
-  "timestamp" : 3250,
-  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 3255,
+  "user" : "bob35",
+  "timestamp" : 350,
   "message" : "Search returned 1 results",
-  "results" : [ "2010 hits" ]
+  "results" : [ "Playlist bengos" ]
 }, {
   "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 3260,
-  "message" : "Successfully selected 2010 hits."
+  "user" : "bob35",
+  "timestamp" : 355,
+  "message" : "Successfully selected Playlist bengos."
+}, {
+  "command" : "follow",
+  "user" : "bob35",
+  "timestamp" : 360,
+  "message" : "Playlist followed successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 365,
+  "message" : "Search returned 1 results",
+  "results" : [ "Aurora Harmony" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "Successfully selected Aurora Harmony."
 }, {
   "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 3265,
+  "user" : "bob35",
+  "timestamp" : 375,
   "message" : "Playback loaded successfully."
 }, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 3270,
-  "stats" : {
-    "name" : "Freedom",
-    "remainedTime" : 173,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 380,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "repeat",
+  "user" : "melodicwanderer",
+  "timestamp" : 480,
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "printCurrentPage",
-  "timestamp" : 3275,
-  "user" : "alice22",
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[2010 hits]"
+  "timestamp" : 525,
+  "user" : "bob35",
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[]"
 }, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 3448,
-  "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 202,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
+  "command" : "search",
+  "user" : "soundseeker21",
+  "timestamp" : 625,
+  "message" : "Search returned 1 results",
+  "results" : [ "audiosage" ]
 }, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 4000,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "command" : "select",
+  "user" : "soundseeker21",
+  "timestamp" : 630,
+  "message" : "Successfully selected audiosage's page."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 725,
+  "message" : "Search returned 1 results",
+  "results" : [ "Playlist bengos" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 730,
+  "message" : "Successfully selected Playlist bengos."
+}, {
+  "command" : "follow",
+  "user" : "carol19",
+  "timestamp" : 735,
+  "message" : "Playlist followed successfully."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 740,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 760,
+  "message" : "Search returned 1 results",
+  "results" : [ "sonicpainter" ]
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 965,
+  "message" : "Repeat mode changed to repeat all."
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1225,
+  "message" : "Successfully selected sonicpainter's page."
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 7200,
+  "message" : "Repeat mode changed to repeat current song."
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 7505,
+  "message" : "Repeat mode changed to no repeat."
+}, {
+  "command" : "printCurrentPage",
+  "timestamp" : 7900,
+  "user" : "bob35",
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[]"
 } ]

@@ -49,6 +49,12 @@ public class User {
     @Getter
     @Setter
     private String lastSearchedArtist;
+    @Getter
+    @Setter
+    private String lastSearchedHost;
+    @Getter
+    @Setter
+    private boolean searchHost = false;
 
     /**
      * Constructs a new User with the given parameters.
@@ -101,7 +107,18 @@ public class User {
                     page = "ArtistPage";
                 }
             }
+        } else if (searchType.equals("host")) {
+            for (Host host : Admin.getHosts()) {
+                if (host.getUsername().startsWith(filters.getName())) {
+                    results.add(host.getUsername());
+                    searchHost = true;
+                    lastSearchedArtist = host.getUsername();
+                    page = "HostPage";
+                }
+            }
         } else {
+            searchHost = false;
+            searchArtist = false;
             List<LibraryEntry> libraryEntries = searchBar.search(filters, searchType);
             for (LibraryEntry libraryEntry : libraryEntries) {
                 results.add(libraryEntry.getName());
@@ -126,13 +143,15 @@ public class User {
 
         LibraryEntry selected = searchBar.select(itemNumber);
 
-        if (!searchArtist) {
-            if (selected == null) {
-                return "The selected ID is too high.";
-            }
-            return "Successfully selected %s.".formatted(selected.getName());
+        if (searchArtist) {
+            return "Successfully selected %s's page.".formatted(lastSearchedArtist);
+        } else if (searchHost) {
+            return "Successfully selected %s's page.".formatted(lastSearchedArtist);
         }
-        return "Successfully selected %s's page.".formatted(lastSearchedArtist);
+        if (selected == null) {
+            return "The selected ID is too high.";
+        }
+        return "Successfully selected %s.".formatted(selected.getName());
     }
     /**
      * Loads the selected source for playback.

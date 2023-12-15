@@ -1,11 +1,13 @@
 package app;
 
 import app.audio.Collections.Album;
+import app.audio.Collections.Announcement;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import app.user.Artist;
+import app.user.Host;
 import app.user.User;
 import fileio.input.EpisodeInput;
 import fileio.input.PodcastInput;
@@ -26,12 +28,17 @@ public final class Admin {
     private static Admin instance;
     @Getter
     @Setter
-    private static List<Artist> artists = new ArrayList<>();;
+    private static List<Artist> artists = new ArrayList<>();
+    @Getter
+    @Setter
+    private static List<Host> hosts = new ArrayList<>();
     private static List<User> users;
     private static List<Song> songs;
     private static List<Podcast> podcasts;
     @Getter
     private static List<Album> albums = new ArrayList<>();
+    @Getter
+    private static List<Announcement> announcements = new ArrayList<>();
     private static int timestamp;
 
     private Admin() {
@@ -41,8 +48,10 @@ public final class Admin {
         podcasts = new ArrayList<>();
         timestamp = 0;
     }
-
-    public static void resetArtist(){
+    /**
+     * Resets the collection of artists, removing all existing entries.
+     */
+    public static void resetArtist() {
         artists.clear();
     }
 
@@ -56,6 +65,15 @@ public final class Admin {
             instance = new Admin();
         }
         return instance;
+    }
+
+    /**
+     * Adds a podcast to the collection.
+     *
+     * @param podcast The podcast to be added.
+     */
+    public static void addPodcast(final Podcast podcast) {
+        podcasts.add(podcast);
     }
 
     /**
@@ -144,6 +162,10 @@ public final class Admin {
      */
     public static List<Podcast> getPodcasts() {
         return new ArrayList<>(podcasts);
+    }
+
+    public static List<Announcement> getAnnouncements() {
+        return new ArrayList<>(announcements);
     }
     /**
      * Gets the list of available playlists.
@@ -273,6 +295,9 @@ public final class Admin {
             if (type.equals("artist")) {
                 newUser = new Artist(username, age, city, type);
                 artists.add(new Artist(username, age, city, type));
+            } else if (type.equals("host")) {
+                newUser = new Host(username, age, city, type);
+                hosts.add(new Host(username, age, city, type));
             } else {
                 newUser = new User(username, age, city, type);
             }

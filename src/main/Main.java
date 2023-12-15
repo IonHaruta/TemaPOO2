@@ -74,7 +74,7 @@ public final class Main {
                                                                + "library/library.json"),
                                                                LibraryInput.class);
         CommandInput[] commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH
-                + "test05_etapa2_playPause_playlist_podcast.json"), CommandInput[].class);
+                + filePath1), CommandInput[].class);
 
         ArrayNode outputs = objectMapper.createArrayNode();
         Admin.resetArtist();
@@ -119,6 +119,10 @@ public final class Main {
                 case "printCurrentPage" -> outputs.add(CommandRunner.printCurrentPage(command));
                 case "addEvent" -> outputs.add(CommandRunner.addEvent(command));
                 case "addMerch" -> outputs.add(CommandRunner.addMerch(command));
+                case "addPodcast" -> outputs.add(CommandRunner.addPodcast(command));
+                case "addAnnouncement" -> outputs.add(CommandRunner.addAnnouncement(command));
+                case "removeAnnouncement" -> outputs.add(CommandRunner.removeAnnouncement(command));
+                case "showPodcasts" -> outputs.add(CommandRunner.showPodcasts(command));
                 default -> System.out.println("Invalid command " + commandName);
             }
         }
